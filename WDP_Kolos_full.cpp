@@ -64,10 +64,11 @@ void piramida(int w)
     for (int i = 1; i <= w; i++)
     {
         int a = x;
+        int b = a;
         for (int j = 0; j < i; j++)
         {
             cout << a << ",";
-            a += a;
+            a += b;
         }
         cout << endl;
         x *= 2;
