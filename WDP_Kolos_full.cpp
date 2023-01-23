@@ -3,9 +3,9 @@
 #include <string>
 using namespace std;
 
-double spalanie(int a, int b)
+double spalanie(double a, double b)
 {
-    int x = a*b/100;
+    double x = a*b/100;
     cout << "przebyte km = " << a << endl;
     cout << "spalanie na 100km = " << b << "(litrow)" << endl;
     cout << "zuzycie paliwa = ";
